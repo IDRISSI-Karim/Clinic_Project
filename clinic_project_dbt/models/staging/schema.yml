@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: RAW
+    schema: RAW
+    tables:
+      - name: veterinaire
+      - name: cliniques
+      - name: rendez_vous
+      - name: facturation
+      - name: satisfaction
+      - name: ressources_humaines

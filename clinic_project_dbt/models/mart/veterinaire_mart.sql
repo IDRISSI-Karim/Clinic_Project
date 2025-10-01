@@ -1,5 +1,13 @@
-{{ config(schema='mart') }}
+-- ============================================================
+-- Table : veterinaire_mart
+-- Description : résultat de la jointure entre les tables 
+--               veterinaire_staging et ressources_humaines_staging,
+--               partageant la même clé primaire
+-- Objectif : centraliser les informations vétérinaires et RH
+--            dans une table unique pour simplifier l’analyse
+-- ============================================================
 
+{{ config(schema='mart') }}
 
 SELECT
     v.id_veterinaire,

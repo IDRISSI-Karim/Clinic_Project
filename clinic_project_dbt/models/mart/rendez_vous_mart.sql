@@ -1,5 +1,8 @@
-{{ config(schema='mart') }}
+-- ==========================
+-- Table : rendez_vous_mart
+-- ==========================
 
+{{ config(schema='mart') }}
 
 select *
 FROM {{ ref('rendez_vous_staging') }}

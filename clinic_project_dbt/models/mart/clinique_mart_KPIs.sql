@@ -1,3 +1,12 @@
+-- ============================================================
+-- Table: clinique_mart_KPIs
+-- Description : contient les indicateurs clés de performance (KPIs)
+--            fiables, automatisables et interprétables
+-- Objectif : permettre le suivi de l’activité, de la rentabilité 
+--            et de la satisfaction des cliniques
+-- ============================================================
+
+
 {{ config(schema='mart') }}
 
 with rdv as (

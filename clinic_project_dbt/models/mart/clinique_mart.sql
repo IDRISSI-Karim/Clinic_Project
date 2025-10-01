@@ -1,3 +1,8 @@
+-- =====================
+-- Table: clinique_mart
+-- =====================
+
+-- Config : ce modèle sera créé dans le schéma "mart"
 {{ config(schema='mart') }}
 
 

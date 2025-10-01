@@ -1,5 +1,8 @@
-{{ config(schema='mart') }}
+-- ==========================
+-- Table : satisfaction_mart
+-- ==========================
 
+{{ config(schema='mart') }}
 
 select *
 FROM {{ ref('satisfaction_staging') }}
